@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asda"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher2"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.example" >
+        <activity
+            android:name="com.example.asda.ICASjalvscanning"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.asda.MinSida"
+            android:label="@string/title_activity_aktivitet"
+            android:parentActivityName="com.example.asda.ICASjalvscanning" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asda.ICASjalvscanning" />
+        </activity>
+        <activity
+            android:name="com.example.asda.ReceptActivity"
+            android:label="@string/title_activity_aktivitet"
+            android:parentActivityName="com.example.asda.ICASjalvscanning" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asda.ICASjalvscanning" />
+        </activity>
+        <activity
+            android:name="com.example.asda.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="com.example.asda.ICASjalvscanning"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asda.ICASjalvscanning" />
+        </activity>
+        <activity
+            android:name="com.example.asda.Recept"
+            android:label="@string/title_activity_recept"
+            android:parentActivityName="com.example.asda.ReceptActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asda.ReceptActivity" />
+        </activity>
+        <activity
+            android:name="com.example.asda.InkopsLista"
+            android:label="@string/title_activity_inkops_lista"
+            android:parentActivityName="com.example.asda.ICASjalvscanning" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asda.ICASjalvscanning" />
+        </activity>
+        <activity
+            android:name="com.example.asda.Inloggad"
+            android:label="@string/title_activity_inloggad"
+            android:parentActivityName="com.example.asda.ICASjalvscanning" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asda.ICASjalvscanning" />
+        </activity>
+        <activity
+            android:name="com.example.asda.SlutFas"
+            android:label="@string/title_activity_slut_fas"
+            android:parentActivityName="com.example.asda.ICASjalvscanning" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asda.ICASjalvscanning" />
+        </activity>
+        <activity
+            android:name="com.example.asda.Wizard"
+            android:label="@string/title_activity_wizard" >
+        </activity>
+    </application>
+
+</manifest>

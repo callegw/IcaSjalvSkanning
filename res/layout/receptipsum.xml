@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bacon Ipsum"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pannkakorstor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bacon ipsum dolor sit amet bresaola ribeye frankfurter, ball tip venison beef sausage prosciutto tail chicken. Ham hock bacon prosciutto meatball. Spare ribs shank flank, andouille filet mignon ribeye tongue turducken cow pork loin leberkas. Salami tail pork loin frankfurter kielbasa swine. Pastrami short loin andouille, bresaola beef ribs sausage drumstick. Kielbasa ham salami pork boudin t-bone turkey. Fatback short ribs andouille, beef ribs pork loin kielbasa drumstick pork belly." />
+
+</LinearLayout>

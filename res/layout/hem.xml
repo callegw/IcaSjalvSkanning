@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skanna en vara"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- PREVENT EDITTEXT FROM REQUESTING FOCUS -->
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+    </ListView>
+
+    <Button
+        android:id="@+id/buyDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttn1"
+        android:layout_marginBottom="23dp"
+        android:text="Handlat klart" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_toLeftOf="@+id/buttn1"
+        android:ems="10"
+        android:hint="Ange antal varor"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignRight="@+id/list"
+        android:text="Bekräfta Vara" />
+
+    <TextView
+        android:id="@+id/summa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buyDone"
+        android:layout_alignBottom="@+id/buyDone"
+        android:layout_alignLeft="@+id/list"
+        android:text="Summa: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/vara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/buttn1"
+        android:text="Vara: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/nyVara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/summa"
+        android:layout_below="@+id/editText1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

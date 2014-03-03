@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICA Självskanning</string>
+    <string name="title_section3">Steg 3</string>
+    <string name="title_section2">Steg 2</string>
+    <string name="title_section1">Steg 1</string>
+    <string name="wizard1">Steg 1</string>
+    <string name="wizard2">Steg 2</string>
+    <string name="wizard3">Steg 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Wizard</string>
+    <string name="title_activity_icasjalvscanning">ICA Självscanning</string>
+    <string name="spagetti_description">Denna utsökta maträtt. Är inte bara en vanlig maträtt, utan en gastronomisk resa in i guds armhåla</string>
+    <string name="sokTitle">Sök</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="valkommen">Välkommen, </string>
+    <string name="title_edit">Vara</string>
+    <string name="body_edit">Egna noteringar</string>
+    <string name="no_notes_list">Inga varor</string>
+    <string name="confirm_edit">OK</string>
+    <string name="edit_note">Edit</string>
+    <string name="menu_insert">Lägg till vara</string>
+    <string name="menu_delete">Ta bort vara</string>
+    <string name="title_activity_aktivitet">Recept</string>
+    <string name="title_activity_recept">Recept</string>
+    <string name="title_activity_inkops_lista">Inköpslista</string>
+    <string name="title_activity_inloggad">Min Sida</string>
+    <string name="title_activity_slut_fas">Checka ut</string>
+    <string name="title_activity_wizard">Wizard</string>
+
+</resources>
